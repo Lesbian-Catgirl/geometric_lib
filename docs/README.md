@@ -67,6 +67,29 @@ Geometric Lib is a library for calculating areas and perimeters of different geo
     print(perimeter(3))  # Output: 12
     ```
 ---
+## [Triangle](../triangle.py)
+
+### Parameters
+    - int a: length of the first side of the triangle
+    - int b: length of the second side of the triangle
+    - int c: length of the third side of the triangle
+    - int h: triangle height
+### Functions
+
+  - `area(a, h)`: Returns area of the triangle
+    
+    **Example:**
+    ```python
+    from triangle import area
+    print(area(2, 4))  # Output: 2
+    ```
+  - `perimeter(a, b, c)`: Returns perimeter of the triangle
+    
+    **Example:**
+    ```python
+    from square import perimeter
+    print(perimeter(3, 12, 6))  # Output: 21
+    ```
 
 # History of commits
 
